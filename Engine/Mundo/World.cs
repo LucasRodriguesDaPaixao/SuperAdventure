@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public static class World
+    public static class Mundo
     {
         // Cria lista de items, Monsters, Quests e Locations
         public static readonly List<Item> Itens = new List<Item>();
@@ -44,7 +44,7 @@ namespace Engine
         public const int LOCALIZACAO_ID_CAMPO_DE_ARANHAS = 9;
 
         // Construtor da classe mundo, irá instanciar todos os elementos do mundo quando chamado e popular as listas atuais.
-        static World()
+        static Mundo()
         {
             InstanciaItens();
             InstanciaMonstros();

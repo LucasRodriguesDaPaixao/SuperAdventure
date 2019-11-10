@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Player : LivingCreature
+    public class Jogador : LivingCreature
     {
         // Guarda Status do jogador
         public int Ouro { get; set; }
@@ -23,7 +23,7 @@ namespace Engine
         public List<PlayerQuest> Quests { get; set; }
 
         // Construtor de classe
-        public Player(int hitPointsAtual, int hitPointMaximo, int ouro, int pontosDeExperiencia, 
+        public Jogador(int hitPointsAtual, int hitPointMaximo, int ouro, int pontosDeExperiencia, 
                       int pontosDeStatus, int forca, int vigor, float experienciaParaProximoNivel, int level) 
                       : base(hitPointsAtual, hitPointMaximo)
         {
